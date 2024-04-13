@@ -12,3 +12,4 @@ C:\Users\aiden\Projects\cs practice\obj\Debug\net8.0\refint\cs practice.dll
 C:\Users\aiden\Projects\cs practice\obj\Debug\net8.0\cs practice.pdb
 C:\Users\aiden\Projects\cs practice\obj\Debug\net8.0\cs practice.genruntimeconfig.cache
 C:\Users\aiden\Projects\cs practice\obj\Debug\net8.0\ref\cs practice.dll
+C:\Users\aiden\Projects\cs practice\obj\Debug\net8.0\cs practice.sourcelink.json
