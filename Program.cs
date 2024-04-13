@@ -5,6 +5,11 @@ class practice {
     static double predict_sales(double total_sales, double profit_percentage){
         return Math.Round(total_sales * profit_percentage, 2);
     }
+
+    static double get_final_price(double purchase_amount, double state_tax, double county_tax){
+        return Math.Round(purchase_amount * (1 + state_tax) * (1 + county_tax), 2); 
+    }
+
     static void Main(){
         //Predicting Sales
         double profit_percentage = 0.23;
@@ -14,5 +19,16 @@ class practice {
         double annual_profit = predict_sales(total_sales, profit_percentage);
 
         Console.WriteLine("Annual Profit: " + Convert.ToString(annual_profit));
+
+        //Calculating Sales Tax
+        double state_tax = 0.5;
+        double county_tax = 0.025;
+
+        Console.Write("Enter purchase amount: ");
+        double purchase_amount = Convert.ToDouble(Console.ReadLine());
+
+        double final_price = get_final_price(purchase_amount, state_tax, county_tax);
+
+        Console.WriteLine("Your final price is " + Convert.ToString(final_price));
     }
 }
