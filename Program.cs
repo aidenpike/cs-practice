@@ -10,6 +10,12 @@ class practice {
         return Math.Round(purchase_amount * (1 + state_tax) * (1 + county_tax), 2); 
     }
 
+    static string get_day(int day_number){
+        string[] days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]; 
+
+        return days[day_number - 1];
+    }
+
     static void Main(){
         //Predicting Sales
         double profit_percentage = 0.23;
@@ -30,5 +36,11 @@ class practice {
         double final_price = get_final_price(purchase_amount, state_tax, county_tax);
 
         Console.WriteLine("Your final price is " + Convert.ToString(final_price));
+
+        //Day of the Week
+        Console.WriteLine("Enter a day number between 1-7: ");
+        int day_number = Convert.ToInt16(Console.ReadLine());
+
+        Console.WriteLine("Your day is " + get_day(day_number));
     }
 }
