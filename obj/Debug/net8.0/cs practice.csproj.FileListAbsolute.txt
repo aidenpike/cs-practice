@@ -1,0 +1,14 @@
+C:\Users\aiden\Projects\cs practice\bin\Debug\net8.0\cs practice.exe
+C:\Users\aiden\Projects\cs practice\bin\Debug\net8.0\cs practice.deps.json
+C:\Users\aiden\Projects\cs practice\bin\Debug\net8.0\cs practice.runtimeconfig.json
+C:\Users\aiden\Projects\cs practice\bin\Debug\net8.0\cs practice.dll
+C:\Users\aiden\Projects\cs practice\bin\Debug\net8.0\cs practice.pdb
+C:\Users\aiden\Projects\cs practice\obj\Debug\net8.0\cs practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aiden\Projects\cs practice\obj\Debug\net8.0\cs practice.AssemblyInfoInputs.cache
+C:\Users\aiden\Projects\cs practice\obj\Debug\net8.0\cs practice.AssemblyInfo.cs
+C:\Users\aiden\Projects\cs practice\obj\Debug\net8.0\cs practice.csproj.CoreCompileInputs.cache
+C:\Users\aiden\Projects\cs practice\obj\Debug\net8.0\cs practice.dll
+C:\Users\aiden\Projects\cs practice\obj\Debug\net8.0\refint\cs practice.dll
+C:\Users\aiden\Projects\cs practice\obj\Debug\net8.0\cs practice.pdb
+C:\Users\aiden\Projects\cs practice\obj\Debug\net8.0\cs practice.genruntimeconfig.cache
+C:\Users\aiden\Projects\cs practice\obj\Debug\net8.0\ref\cs practice.dll
