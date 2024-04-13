@@ -16,6 +16,12 @@ class practice {
         return days[day_number - 1];
     }
 
+    static string convert_number(int number){
+        string[] roman_numerals = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
+
+        return roman_numerals[number - 1];
+    }
+    
     static void Main(){
         //Predicting Sales
         double profit_percentage = 0.23;
@@ -42,5 +48,11 @@ class practice {
         int day_number = Convert.ToInt16(Console.ReadLine());
 
         Console.WriteLine("Your day is " + get_day(day_number));
+
+        //Roman Numerals
+        Console.WriteLine("Enter the number you wish to convert: ");
+        int number = Convert.ToInt16(Console.ReadLine());
+
+        Console.WriteLine("Your converted number is " + convert_number(number));
     }
 }
